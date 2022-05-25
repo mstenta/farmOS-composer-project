@@ -17,11 +17,23 @@
     ],
     "require": {
         "farmos/farmos": "^3.0",
+        "drupal/entity_reference_validators": "@beta",
+        "drupal/gin": "@beta",
+        "drupal/gin_toolbar": "@beta",
+        "drupal/inline_entity_form": "@RC",
+        "drupal/jsonapi_schema": "@beta",
         "oomphinc/composer-installers-extender": "^2.0",
         "wikimedia/composer-merge-plugin": "^2.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "_comments": {
+        "drupal/entity_reference_validators": "Declared here as a transitory dependency until a stable release is available. See https://www.drupal.org/project/farm/issues/3207255",
+        "drupal/gin": "Declared here as a transitory dependency until a stable release is available. See https://www.drupal.org/project/farm/issues/3207255",
+        "drupal/gin_toolbar": "Declared here as a transitory dependency until a stable release is available. See https://www.drupal.org/project/farm/issues/3207255",
+        "drupal/inline_entity_form": "Declared here as a transitory dependency until a stable release is available. See https://www.drupal.org/project/farm/issues/3207255",
+        "drupal/jsonapi_schema": "Declared here as a transitory dependency until a stable release is available. See https://www.drupal.org/project/farm/issues/3207255"
+    },
     "extra": {
         "installer-paths": {
             "web/core": ["type:drupal-core"],
