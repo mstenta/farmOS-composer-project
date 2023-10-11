@@ -1,0 +1,12 @@
+# Ignore Composer-generated files.
+.editorconfig
+.gitattributes
+vendor
+web/*
+
+# farmOS uses this to store OAuth2 keys.
+keys
+
+# Ignore composer.lock for local development.
+composer.lock
+
