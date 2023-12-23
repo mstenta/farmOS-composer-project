@@ -24,12 +24,24 @@
     "prefer-stable": true,
     "extra": {
         "installer-paths": {
-            "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
-            "web/modules/{$name}": ["type:drupal-module"],
-            "web/profiles/farm": ["farmos/farmos"],
-            "web/themes/{$name}": ["type:drupal-theme"],
-            "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/farm": [
+                "farmos/farmos"
+            ],
+            "web/themes/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ]
         },
         "merge-plugin": {
             "require": [
@@ -38,6 +50,17 @@
             ],
             "merge-extra": true,
             "merge-extra-deep": true
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-composer-scaffold": true,
+            "oomphinc/composer-installers-extender": true,
+            "phpstan/extension-installer": true,
+            "wikimedia/composer-merge-plugin": true
         }
     }
 }
