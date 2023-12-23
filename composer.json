@@ -14,15 +14,117 @@
             "type": "path",
             "url": "../repos/farmOS"
         },
+        "farm_asset_termination": {
+            "type": "path",
+            "url": "../repos/farm_asset_termination"
+        },
+        "farm_bee": {
+            "type": "path",
+            "url": "../repos/farm_bee"
+        },
+        "farm_calendar": {
+            "type": "path",
+            "url": "../repos/farm_calendar"
+        },
+        "farm_convention": {
+            "type": "path",
+            "url": "../repos/farm_convention"
+        },
+        "farm_grazing_plan": {
+            "type": "path",
+            "url": "../repos/farm_grazing_plan"
+        },
+        "farm_pcsc": {
+            "type": "path",
+            "url": "../repos/farm_pcsc"
+        },
+        "farm_crop_plan": {
+            "type": "path",
+            "url": "../repos/farm_crop_plan"
+        },
+        "farm_document": {
+            "type": "path",
+            "url": "../repos/farm_document"
+        },
+        "farm_forest": {
+            "type": "path",
+            "url": "../repos/farm_forest"
+        },
+        "farm_fungi": {
+            "type": "path",
+            "url": "../repos/farm_fungi"
+        },
+        "farm_ledger": {
+            "type": "path",
+            "url": "../repos/farm_ledger"
+        },
+        "farm_maple": {
+            "type": "path",
+            "url": "../repos/farm_maple"
+        },
+        "farm_nrcs": {
+            "type": "path",
+            "url": "../repos/farm_nrcs"
+        },
+        "farm_pasa": {
+            "type": "path",
+            "url": "../repos/farm_pasa"
+        },
+        "farm_profile_common": {
+            "type": "path",
+            "url": "../repos/farm_profile_common"
+        },
+        "farm_rei": {
+            "type": "path",
+            "url": "../repos/farm_rei"
+        },
+        "farm_surveystack": {
+            "type": "path",
+            "url": "../repos/farm_surveystack"
+        },
+        "fraction": {
+            "type": "path",
+            "url": "../repos/fraction"
+        },
+        "hosting": {
+            "type": "path",
+            "url": "../repos/farmier/services/platform/www/hosting"
+        },
+        "log": {
+            "type": "path",
+            "url": "../repos/log"
+        },
         "0": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
     },
     "require": {
+        "drupal/farm_asset_termination": "*",
+        "drupal/farm_bee": "*",
+        "drupal/farm_calendar": "*",
+        "drupal/farm_crop_plan": "*",
+        "drupal/farm_grazing_plan": "*",
+        "drupal/farm_forest": "*",
+        "drupal/farm_fungi": "*",
+        "drupal/farm_ledger": "*",
+        "drupal/farm_maple": "*",
+        "drupal/farm_nrcs": "*",
+        "drupal/farm_rei": "*",
+        "drupal/log": "*",
+        "farmier/farm_pasa":  "*",
+        "farmier/hosting": "*",
         "farmos/farmos": "*",
+        "mstenta/farm_convention": "*",
+        "mstenta/farm_document": "*",
+        "mstenta/farm_profile_common": "*",
+        "openteam/farm_pcsc": "*",
+        "oursci/farm_surveystack": "*",
         "oomphinc/composer-installers-extender": "^2.0",
         "wikimedia/composer-merge-plugin": "^2.0"
+    },
+    "replace": {
+        "mstenta/farm_profile_common": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
