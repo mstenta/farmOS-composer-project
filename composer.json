@@ -9,14 +9,18 @@
         "forum": "https://farmOS.discourse.group",
         "chat": "https://matrix.to/#/#farmOS:matrix.org"
     },
-    "repositories": [
-        {
+    "repositories": {
+        "farmos": {
+            "type": "path",
+            "url": "../repos/farmOS"
+        },
+        "0": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    ],
+    },
     "require": {
-        "farmos/farmos": "^3.0",
+        "farmos/farmos": "*",
         "oomphinc/composer-installers-extender": "^2.0",
         "wikimedia/composer-merge-plugin": "^2.0"
     },
