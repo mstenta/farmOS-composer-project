@@ -22,6 +22,11 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "config": {
+        "audit": {
+            "block-insecure": false
+        }
+    },
     "extra": {
         "installer-paths": {
             "web/core": ["type:drupal-core"],
